@@ -80,8 +80,8 @@ minHeight: "100vh", }}>
     marginBottom: "30px",
   }}
 >
-  Building the Next Generation of Hispanic Healthcare Leaders
-</h2>
+  What is HOM?
+</h2>s
 <p
   style={{
     fontSize: "22px",
@@ -91,10 +91,32 @@ minHeight: "100vh", }}>
   }}
 >
 
-  Empowering Hispanic students pursuing healthcare careers
-
-  through mentorship, opportunity, and community.
+  Hispanic Opportunities in Medicine (HOM) is a student-led initiative dedicated to increasing Hispanic representation in healthcare. We connect aspiring healthcare professionals with mentorship, resources, scholarships, clinical experiences, and leadership opportunities.
       </p>
+      <div
+  style={{
+    maxWidth: "800px",
+    margin: "40px auto",
+    textAlign: "center",
+  }}
+>
+  <h2 style={{ color: "#0D1B2A" }}>
+    What is HOM?
+  </h2>
+
+  <p
+    style={{
+      fontSize: "20px",
+      lineHeight: "1.8",
+    }}
+  >
+    Hispanic Opportunities in Medicine (HOM) is a student-led
+    organization dedicated to increasing Hispanic representation
+    in healthcare by connecting students with mentorship,
+    educational resources, research opportunities, scholarships,
+    and professional development.
+  </p>
+</div>
 <div
   style={{
     display: "flex",
