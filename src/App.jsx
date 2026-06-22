@@ -1,35 +1,203 @@
+import logo from "./assets/hom-logo.png";
+import { Link } from "react-router-dom";
 export default function App() {
   return (
-    <div style={{ fontFamily: "Arial", padding: "40px", maxWidth: "900px", margin: "auto" }}>
-      <h1>Hispanic Opportunities in Medicine (HOM)</h1>
+<div style={{ fontFamily: "Arial", padding: "40px", maxWidth: "900px", margin: "auto", backgroundColor: "#F7F3EC",
+minHeight: "100vh", }}>
+  <nav
+  style={{
+    display: "flex",
+    justifyContent: "center",
+    gap: "40px",
+    paddingBottom: "30px",
+    color: "#0D1B2A",
+    fontSize: "18px",
+  }}
+>
+<Link
+  to="/"
+  style={{ textDecoration: "none", color: "#0D1B2A" }}
+>
+  Home
+</Link>
 
-      <p>
-        Breaking barriers and creating pathways for Hispanic students pursuing
-        careers in healthcare.
+<Link
+  to="/about"
+  style={{ textDecoration: "none", color: "#0D1B2A" }}
+>
+  About
+</Link>
+
+<Link
+  to="/resources"
+  style={{ textDecoration: "none", color: "#0D1B2A" }}
+>
+  Resources
+</Link>
+
+<Link
+  to="/"
+  style={{ textDecoration: "none", color: "#0D1B2A" }}
+>
+  Programs
+</Link>
+
+<Link
+  to="/"
+  style={{ textDecoration: "none", color: "#0D1B2A" }}
+>
+  Join HOM
+</Link>
+</nav>
+      <img
+  src={logo}
+  alt="HOM Logo"
+  style={{
+    width: "220px",
+    display: "block",
+    margin: "0 auto 20px auto"
+  }}
+/>
+<h1
+  style={{
+    fontSize: "72px",
+    color: "#0D1B2A",
+    textAlign: "center",
+    lineHeight: "1.1",
+    marginBottom: "20px",
+  }}
+>
+  Rooted in Heritage.
+  <br />
+  Driven by Purpose.
+</h1>
+
+<h2
+  style={{
+    color: "#E07A5F",
+    textAlign: "center",
+    fontSize: "32px",
+    marginBottom: "30px",
+  }}
+>
+  Building the Next Generation of Hispanic Healthcare Leaders
+</h2>
+<p
+  style={{
+    fontSize: "22px",
+    maxWidth: "700px",
+    margin: "0 auto",
+    textAlign: "center",
+  }}
+>
+
+  Empowering Hispanic students pursuing healthcare careers
+
+  through mentorship, opportunity, and community.
       </p>
+<div
+  style={{
+    display: "flex",
+    justifyContent: "center",
+    gap: "20px",
+    marginTop: "30px",
+    marginBottom: "50px",
+  }}
+>
+  <button
+    style={{
+      backgroundColor: "#0D1B2A",
+      color: "white",
+      padding: "12px 24px",
+      border: "none",
+      borderRadius: "8px",
+      cursor: "pointer",
+      fontSize: "16px",
+    }}
+  >
+    Our Mission
+  </button>
 
-      <hr />
+  <button
+    style={{
+      backgroundColor: "#E07A5F",
+      color: "white",
+      padding: "12px 24px",
+      border: "none",
+      borderRadius: "8px",
+      cursor: "pointer",
+      fontSize: "16px",
+    }}
+  >
+    Join HOM
+  </button>
+</div>
+<div
+  style={{
+    display: "flex",
+    justifyContent: "center",
+    gap: "20px",
+    flexWrap: "wrap",
+    marginTop: "50px",
+  }}
+>
+<div
+  style={{
+    backgroundColor: "#0D1B2A",
+    color: "white",
+    padding: "25px",
+    width: "180px",
+    borderRadius: "15px",
+    boxShadow: "0 4px 12px rgba(0,0,0,0.2)",
+  }}
+>
+    <h3>Resources</h3>
+    <p>Guides, tools, and academic support.</p>
+  </div>
 
-      <h2>Resources</h2>
-      <ul>
-        <li>Pre-Med Roadmaps</li>
-        <li>Scholarship Opportunities</li>
-        <li>MCAT Resources</li>
-        <li>Clinical Experience Guides</li>
-      </ul>
+  <div
+  style={{
+    backgroundColor: "#0D1B2A",
+    color: "white",
+    padding: "25px",
+    width: "180px",
+    borderRadius: "15px",
+    boxShadow: "0 4px 12px rgba(0,0,0,0.2)",
+  }}
+>
+    <h3>Mentorship</h3>
+    <p>Connect with healthcare professionals.</p>
+  </div>
 
-      <h2>Shadowing Opportunities</h2>
-      <p>
-        Future section for physician shadowing, mentorship, and networking.
-      </p>
+  <div
+  style={{
+    backgroundColor: "#0D1B2A",
+    color: "white",
+    padding: "25px",
+    width: "180px",
+    borderRadius: "15px",
+    boxShadow: "0 4px 12px rgba(0,0,0,0.2)",
+  }}
+>
+    <h3>Events</h3>
+    <p>Workshops, webinars, and networking.</p>
+  </div>
 
-      <h2>Articles</h2>
-      <p>
-        Stories, advice, and career guidance from students and professionals.
-      </p>
-
-      <h2>Join HOM</h2>
-      <button>Sign Up</button>
+<div
+  style={{
+    backgroundColor: "#0D1B2A",
+    color: "white",
+    padding: "25px",
+    width: "180px",
+    borderRadius: "15px",
+    boxShadow: "0 4px 12px rgba(0,0,0,0.2)",
+  }}
+>
+    <h3>Get Involved</h3>
+    <p>Become part of the HOM community.</p>
+  </div>
+</div>
+      
     </div>
   );
 }
