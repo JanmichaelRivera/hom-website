@@ -1,3 +1,14 @@
+import { Link } from "react-router-dom";
+<Link
+  to="/"
+  style={{
+    textDecoration: "none",
+    color: "#E07A5F",
+    fontWeight: "bold",
+  }}
+>
+  ← Back to Home
+</Link>
 export default function Resources() {
   return (
     <div style={{ padding: "40px" }}>

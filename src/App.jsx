@@ -158,7 +158,8 @@ export default function App() {
             backgroundColor: "#0D1B2A",
             color: "white",
             padding: "25px",
-            width: "180px",
+            width: "250px",
+minHeight: "180px",
             borderRadius: "15px",
             boxShadow: "0 4px 12px rgba(0,0,0,0.2)",
           }}
@@ -172,13 +173,14 @@ export default function App() {
             backgroundColor: "#0D1B2A",
             color: "white",
             padding: "25px",
-            width: "180px",
+            width: "250px",
+minHeight: "180px",
             borderRadius: "15px",
             boxShadow: "0 4px 12px rgba(0,0,0,0.2)",
           }}
         >
-          <h3>Professional Mentorship</h3>
-          <p>Connect with physicians, nurses, researchers, and healthcare leaders.</p>
+          <h3>Healthcare Mentorship</h3>
+          <p>Connect with physicians, nurses, researchers, and healthcare leaders who can help guide your journey.</p>
         </div>
 
         <div
@@ -186,13 +188,14 @@ export default function App() {
             backgroundColor: "#0D1B2A",
             color: "white",
             padding: "25px",
-            width: "180px",
+            width: "250px",
+minHeight: "180px",
             borderRadius: "15px",
             boxShadow: "0 4px 12px rgba(0,0,0,0.2)",
           }}
         >
-          <h3>Networking & Events</h3>
-          <p>Virtual events, guest speakers, workshops, and career panels.</p>
+          <h3>Events & Workshops</h3>
+          <p>Attend virtual workshops, guest speaker events, networking sessions, and career development programs.</p>
         </div>
 
       <div
@@ -200,13 +203,14 @@ export default function App() {
           backgroundColor: "#0D1B2A",
           color: "white",
           padding: "25px",
-          width: "180px",
+          width: "250px",
+minHeight: "180px",
           borderRadius: "15px",
           boxShadow: "0 4px 12px rgba(0,0,0,0.2)",
         }}
       >
-        <h3>Join the Community</h3>
-        <p>Volunteer, mentor, collaborate, and help grow the next generation.</p>
+        <h3>Get Involved</h3>
+        <p>Volunteer, mentor, collaborate, and help expand opportunities for future healthcare professionals.</p>
       </div>
       </div>
     </div>

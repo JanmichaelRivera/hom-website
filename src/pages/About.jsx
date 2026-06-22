@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 export default function About() {
   return (
     <div
@@ -9,9 +10,24 @@ export default function About() {
         fontFamily: "Arial"
       }}
     >
-      <h1 style={{ fontSize: "56px" }}>
-        About HOM
-      </h1>
+      <Link
+  to="/"
+  style={{
+    textDecoration: "none",
+    color: "#E07A5F",
+    fontWeight: "bold",
+    fontSize: "18px",
+  }}
+>
+  ← Back to Home
+</Link>
+<h1 style={{ fontSize: "56px", color: "#0D1B2A" }}>
+  About HOM
+</h1>
+
+<h2 style={{ color: "#E07A5F" }}>
+  Hispanic Opportunities in Medicine
+</h2>
 
       <p style={{ fontSize: "22px", lineHeight: "1.8" }}>
         Hispanic Opportunities in Medicine (HOM) exists to increase
