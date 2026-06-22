@@ -81,7 +81,7 @@ minHeight: "100vh", }}>
   }}
 >
   What is HOM?
-</h2>s
+</h2>
 <p
   style={{
     fontSize: "22px",
@@ -100,22 +100,6 @@ minHeight: "100vh", }}>
     textAlign: "center",
   }}
 >
-  <h2 style={{ color: "#0D1B2A" }}>
-    What is HOM?
-  </h2>
-
-  <p
-    style={{
-      fontSize: "20px",
-      lineHeight: "1.8",
-    }}
-  >
-    Hispanic Opportunities in Medicine (HOM) is a student-led
-    organization dedicated to increasing Hispanic representation
-    in healthcare by connecting students with mentorship,
-    educational resources, research opportunities, scholarships,
-    and professional development.
-  </p>
 </div>
 <div
   style={{
