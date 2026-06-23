@@ -26,8 +26,8 @@ export default function About() {
 <h1
   style={{
     fontSize: "64px",
-    color: "#F7F3EC",backgroundColor: "#F8F5F0",
-minHeight: "100vh",
+    color: "#0D1B2A",
+    marginTop: "20px",
     marginBottom: "10px",
   }}
 >
@@ -64,7 +64,8 @@ minHeight: "100vh",
   }}
 />
 
-<h2 style={{ color: "#E07A5F", marginBottom: "20px" }}>
+<h2 style={{ color: "#0D1B2A",
+backgroundColor: "#F8F5F0", marginBottom: "20px" }}>
   Why HOM Exists
 </h2>
 
