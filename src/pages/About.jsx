@@ -121,7 +121,7 @@ backgroundColor: "#F8F5F0", marginBottom: "20px" }}>
         marginBottom: "20px",
       }}
     >
-      Why I Started HOM
+      Our Story
     </h2>
 
     <p
@@ -137,6 +137,27 @@ backgroundColor: "#F8F5F0", marginBottom: "20px" }}>
       and provide students with the support, resources, and network
       necessary to pursue careers in medicine and healthcare leadership.
     </p>
+    <div
+  style={{
+    marginTop: "30px",
+    padding: "25px",
+    borderLeft: "4px solid #E07A5F",
+    backgroundColor: "#FFFDF9",
+    borderRadius: "8px",
+  }}
+>
+  <p
+    style={{
+      fontSize: "18px",
+      fontStyle: "italic",
+      margin: 0,
+      lineHeight: "1.8",
+      color: "#374151",
+    }}
+  >
+    "Talent exists everywhere. Opportunity should too."
+  </p>
+</div>
 
   </div>
 <div
@@ -241,6 +262,88 @@ minHeight: "220px",
 </div>
 </div>
 </div>
+
+<div
+  style={{
+    marginTop: "80px",
+    marginBottom: "100px",
+  }}
+>
+  <p
+    style={{
+      textAlign: "center",
+      color: "#E07A5F",
+      fontWeight: "bold",
+      letterSpacing: "3px",
+      marginBottom: "10px",
+    }}
+  >
+    OUR IMPACT
+  </p>
+
+  <h2
+    style={{
+      textAlign: "center",
+      color: "#0D1B2A",
+      fontSize: "48px",
+      marginBottom: "50px",
+    }}
+  >
+    Building Opportunity Through Community
+  </h2>
+
+  <div
+    style={{
+      display: "flex",
+      justifyContent: "center",
+      gap: "30px",
+      flexWrap: "wrap",
+    }}
+  >
+    <div
+      style={{
+        backgroundColor: "#FFFDF9",
+        padding: "35px",
+        width: "250px",
+        borderRadius: "18px",
+        textAlign: "center",
+        boxShadow: "0 8px 20px rgba(0,0,0,0.08)",
+      }}
+    >
+      <h1 style={{ color: "#E07A5F", margin: 0 }}>100+</h1>
+      <p>Students Connected</p>
+    </div>
+
+    <div
+      style={{
+        backgroundColor: "#FFFDF9",
+        padding: "35px",
+        width: "250px",
+        borderRadius: "18px",
+        textAlign: "center",
+        boxShadow: "0 8px 20px rgba(0,0,0,0.08)",
+      }}
+    >
+      <h1 style={{ color: "#E07A5F", margin: 0 }}>Growing</h1>
+      <p>Resource Library</p>
+    </div>
+
+    <div
+      style={{
+        backgroundColor: "#FFFDF9",
+        padding: "35px",
+        width: "250px",
+        borderRadius: "18px",
+        textAlign: "center",
+        boxShadow: "0 8px 20px rgba(0,0,0,0.08)",
+      }}
+    >
+      <h1 style={{ color: "#E07A5F", margin: 0 }}>Statewide</h1>
+      <p>Community Building</p>
+    </div>
+  </div>
+</div>
+
 </div>
   );
 }
