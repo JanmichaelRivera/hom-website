@@ -93,7 +93,149 @@ backgroundColor: "#F8F5F0", marginBottom: "20px" }}>
   HOM exists to create pathways toward success while building a
   supportive network of future physicians, nurses, researchers, public
   health leaders, and healthcare professionals.
-</p>
+</p> <div
+  style={{
+    display: "flex",
+    gap: "50px",
+    alignItems: "center",
+    marginTop: "80px",
+    marginBottom: "80px",
+    flexWrap: "wrap",
+  }}
+>
+  <img
+    src="https://images.unsplash.com/photo-1576091160550-2173dba999ef"
+    alt="Healthcare students"
+    style={{
+      width: "500px",
+      borderRadius: "24px",
+      boxShadow: "0 8px 24px rgba(0,0,0,0.15)",
+    }}
+  />
+
+  <div style={{ flex: 1, minWidth: "300px" }}>
+    <h2
+      style={{
+        color: "#0D1B2A",
+        fontSize: "40px",
+        marginBottom: "20px",
+      }}
+    >
+      Why I Started HOM
+    </h2>
+
+    <p
+      style={{
+        fontSize: "20px",
+        lineHeight: "1.9",
+        color: "#374151",
+      }}
+    >
+      Growing up, I saw talented students with aspirations in healthcare
+      but limited access to mentors, research opportunities, scholarships,
+      and professional guidance. HOM was created to help bridge that gap
+      and provide students with the support, resources, and network
+      necessary to pursue careers in medicine and healthcare leadership.
+    </p>
+
+  </div>
+<div
+  style={{
+    textAlign: "center",
+    marginBottom: "60px",
+  }}
+>
+  <p
+    style={{
+      color: "#E07A5F",
+      letterSpacing: "3px",
+      fontWeight: "bold",
+      marginBottom: "10px",
+    }}
+  >
+    OUR FOCUS
+  </p>
+
+  <h2
+    style={{
+      fontSize: "48px",
+      color: "#0D1B2A",
+      margin: 0,
+    }}
+  >
+    Building Opportunity Through Community
+  </h2>
+
+  <p
+    style={{
+      maxWidth: "700px",
+      margin: "20px auto",
+      color: "#6B7280",
+      fontSize: "20px",
+      lineHeight: "1.8",
+    }}
+  >
+    HOM connects students with the people, resources, and opportunities
+    needed to pursue careers in healthcare and create meaningful impact.
+  </p>
+  style={{
+    display: "flex",
+    justifyContent: "center",
+    gap: "30px",
+    flexWrap: "wrap",
+    marginBottom: "100px",
+  }}
+
+<div
+  style={{
+    backgroundColor: "#0D1B2A",
+    color: "white",
+    width: "320px",
+    minHeight: "220px",
+    padding: "35px",
+    borderRadius: "18px",
+    boxShadow: "0 12px 30px rgba(0,0,0,0.12)",
+  }}
+>
+  <h3>Mentorship</h3>
+  <p>Connect students with healthcare professionals and role models.</p>
+</div>
+
+<div
+  style={{
+    backgroundColor: "#0D1B2A",
+    color: "white",
+    width: "320px",
+minHeight: "220px",
+    padding: "35px",
+    borderRadius: "18px",
+    boxShadow: "0 12px 30px rgba(0,0,0,0.12)",
+  }}
+>
+  <h3>Opportunity</h3>
+  <p>
+    Share research, volunteer, scholarship, and leadership opportunities.
+  </p>
+</div>
+
+<div
+  style={{
+    backgroundColor: "#0D1B2A",
+    color: "white",
+    width: "320px",
+minHeight: "220px",
+    padding: "35px",
+    borderRadius: "18px",
+    boxShadow: "0 12px 30px rgba(0,0,0,0.12)",
+  }}
+>
+  <h3>Representation</h3>
+  <p>
+    Increase Hispanic representation throughout medicine and healthcare.
+  </p>
+</div>
+</div>
+</div>
     </div>
   );
 }
