@@ -177,7 +177,11 @@ backgroundColor: "#F8F5F0", marginBottom: "20px" }}>
   >
     HOM connects students with the people, resources, and opportunities
     needed to pursue careers in healthcare and create meaningful impact.
-  </p>
+</p>
+
+</div>
+
+<div
   style={{
     display: "flex",
     justifyContent: "center",
@@ -185,6 +189,7 @@ backgroundColor: "#F8F5F0", marginBottom: "20px" }}>
     flexWrap: "wrap",
     marginBottom: "100px",
   }}
+>
 
 <div
   style={{
@@ -236,6 +241,6 @@ minHeight: "220px",
 </div>
 </div>
 </div>
-    </div>
+</div>
   );
 }
