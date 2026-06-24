@@ -310,38 +310,176 @@ minHeight: "220px",
         boxShadow: "0 8px 20px rgba(0,0,0,0.08)",
       }}
     >
-      <h1 style={{ color: "#E07A5F", margin: 0 }}>100+</h1>
+      <h1
+  style={{
+    color: "#E07A5F",
+    margin: 0,
+    fontSize: "48px",
+  }}
+>
+  RI Community
+</h1>
+<p>Community Building</p>
       <p>Students Connected</p>
     </div>
 
     <div
-      style={{
-        backgroundColor: "#FFFDF9",
-        padding: "35px",
-        width: "250px",
-        borderRadius: "18px",
-        textAlign: "center",
-        boxShadow: "0 8px 20px rgba(0,0,0,0.08)",
-      }}
-    >
-      <h1 style={{ color: "#E07A5F", margin: 0 }}>Growing</h1>
-      <p>Resource Library</p>
-    </div>
+  style={{
+    backgroundColor: "#FFFDF9",
+    padding: "35px",
+    width: "250px",
+    borderRadius: "18px",
+    textAlign: "center",
+    boxShadow: "0 8px 20px rgba(0,0,0,0.08)",
+  }}
+>
+  <h1
+    style={{
+      color: "#E07A5F",
+      margin: 0,
+      fontSize: "48px",
+    }}
+  >
+    100+
+  </h1>
+  <p>Students Connected</p>
+</div>
 
-    <div
-      style={{
-        backgroundColor: "#FFFDF9",
-        padding: "35px",
-        width: "250px",
-        borderRadius: "18px",
-        textAlign: "center",
-        boxShadow: "0 8px 20px rgba(0,0,0,0.08)",
-      }}
-    >
-      <h1 style={{ color: "#E07A5F", margin: 0 }}>Statewide</h1>
-      <p>Community Building</p>
-    </div>
+<div
+  style={{
+    backgroundColor: "#FFFDF9",
+    padding: "35px",
+    width: "250px",
+    borderRadius: "18px",
+    textAlign: "center",
+    boxShadow: "0 8px 20px rgba(0,0,0,0.08)",
+  }}
+>
+  <h1
+    style={{
+      color: "#E07A5F",
+      margin: 0,
+      fontSize: "48px",
+    }}
+  >
+    Growing
+  </h1>
+  <p>Resource Library</p>
+</div>
+
+<div
+  style={{
+    backgroundColor: "#FFFDF9",
+    padding: "35px",
+    width: "250px",
+    borderRadius: "18px",
+    textAlign: "center",
+    boxShadow: "0 8px 20px rgba(0,0,0,0.08)",
+  }}
+>
+  <h1
+    style={{
+      color: "#E07A5F",
+      margin: 0,
+      fontSize: "48px",
+    }}
+  >
+    RI
+  </h1>
+  <p>Community Building</p>
+</div>
   </div>
+</div>
+<div
+  style={{
+    backgroundColor: "#0D1B2A",
+    color: "white",
+    padding: "80px 50px",
+    borderRadius: "24px",
+    textAlign: "center",
+    marginTop: "100px",
+    marginBottom: "50px",
+  }}
+>
+  <p
+    style={{
+      color: "#E07A5F",
+      letterSpacing: "3px",
+      fontWeight: "bold",
+    }}
+  >
+    GET INVOLVED
+  </p>
+
+  <h2
+    style={{
+      fontSize: "48px",
+      marginTop: "10px",
+      marginBottom: "20px",
+    }}
+  >
+    Ready to Join HOM?
+  </h2>
+
+  <p
+    style={{
+      maxWidth: "700px",
+      margin: "0 auto 35px auto",
+      lineHeight: "1.8",
+      fontSize: "20px",
+      color: "#D1D5DB",
+    }}
+  >
+    Join a growing community dedicated to mentorship, opportunity,
+    representation, and professional development in healthcare.
+  </p>
+
+<div
+  style={{
+    display: "flex",
+    justifyContent: "center",
+    gap: "20px",
+    flexWrap: "wrap",
+  }}
+>
+  <a
+    href="https://forms.gle/36tvAVX6qR1hR2YBA"
+    target="_blank"
+    rel="noopener noreferrer"
+    style={{
+      backgroundColor: "#E07A5F",
+      color: "white",
+      padding: "16px 32px",
+      borderRadius: "10px",
+      textDecoration: "none",
+      fontSize: "18px",
+      fontWeight: "bold",
+      display: "inline-block",
+    }}
+  >
+    Join HOM
+  </a>
+
+  <a
+    href="https://forms.gle/y6ePVCfBvfFMfwDBA"
+    target="_blank"
+    rel="noopener noreferrer"
+    style={{
+      backgroundColor: "transparent",
+      color: "white",
+      padding: "16px 32px",
+      borderRadius: "10px",
+      textDecoration: "none",
+      fontSize: "18px",
+      fontWeight: "bold",
+      border: "2px solid white",
+      display: "inline-block",
+    }}
+  >
+    Leadership Applications
+</a>
+</div>
+
 </div>
 
 </div>
