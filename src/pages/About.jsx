@@ -218,6 +218,7 @@ backgroundColor: "#F8F5F0", marginBottom: "20px" }}>
     color: "white",
     width: "320px",
     minHeight: "220px",
+    fontSize: "30px",
     padding: "35px",
     borderRadius: "18px",
     boxShadow: "0 12px 30px rgba(0,0,0,0.12)",
@@ -314,10 +315,10 @@ minHeight: "220px",
   style={{
     color: "#E07A5F",
     margin: 0,
-    fontSize: "48px",
+    fontSize: "36px",
   }}
 >
-  RI Community
+  R.I. Community
 </h1>
 <p>Community Building</p>
       <p>Students Connected</p>
@@ -337,7 +338,7 @@ minHeight: "220px",
     style={{
       color: "#E07A5F",
       margin: 0,
-      fontSize: "48px",
+      fontSize: "36px",
     }}
   >
     100+
@@ -359,7 +360,7 @@ minHeight: "220px",
     style={{
       color: "#E07A5F",
       margin: 0,
-      fontSize: "48px",
+      fontSize: "36px",
     }}
   >
     Growing
@@ -381,10 +382,10 @@ minHeight: "220px",
     style={{
       color: "#E07A5F",
       margin: 0,
-      fontSize: "48px",
+      fontSize: "36px",
     }}
   >
-    RI
+    R.I.
   </h1>
   <p>Community Building</p>
 </div>
