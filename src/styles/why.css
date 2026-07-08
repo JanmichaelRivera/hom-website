@@ -1,0 +1,144 @@
+/* ==========================================================
+   WHY HOM EXISTS
+========================================================== */
+
+.why{
+    padding:120px 0;
+    background:#FFFFFF;
+}
+
+.why-container{
+    max-width:1100px;
+    margin:0 auto;
+    text-align:center;
+}
+
+.why .section-eyebrow{
+    color:var(--accent);
+    font-size:.9rem;
+    font-weight:700;
+    letter-spacing:.18em;
+    text-transform:uppercase;
+    margin-bottom:18px;
+}
+
+.why-title{
+    font-size:clamp(2.8rem,4.8vw,4.2rem);
+    font-weight:800;
+    line-height:1.05;
+    letter-spacing:-.05em;
+    color:var(--navy);
+    margin-bottom:30px;
+}
+
+.why-description{
+    max-width:760px;
+    margin:0 auto;
+    font-size:1.15rem;
+    line-height:1.9;
+    color:var(--gray-500);
+}
+
+.why-description.mission{
+    margin-top:6px;
+}
+
+.why-grid{
+
+    margin-top:45px;
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:30px;
+
+}
+
+.why-card{
+
+    background:white;
+
+    border-radius:26px;
+
+    padding:42px 36px;
+
+    border:1px solid rgba(13,27,42,.06);
+
+    box-shadow:0 15px 45px rgba(13,27,42,.05);
+
+    transition:.3s;
+
+    text-align:left;
+
+}
+
+.why-card:hover{
+
+    transform:translateY(-10px);
+
+box-shadow:0 30px 70px rgba(13,27,42,.10);
+
+}
+
+.why-icon{
+
+    width:62px;
+
+    height:62px;
+
+    border-radius:18px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    margin-bottom:26px;
+
+    background:#FDEEE7;
+
+    color:var(--accent);
+
+}
+
+.why-card h3{
+
+    font-size:1.45rem;
+
+    color:var(--navy);
+
+    margin-bottom:14px;
+
+}
+
+.why-card p{
+
+    color:var(--gray-500);
+
+    line-height:1.8;
+
+}
+
+@media(max-width:900px){
+
+    .why-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .why-card{
+
+        text-align:center;
+
+    }
+
+    .why-icon{
+
+        margin:0 auto 24px;
+
+    }
+
+}

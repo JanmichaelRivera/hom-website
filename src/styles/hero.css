@@ -1,0 +1,304 @@
+/* ==========================================================
+   HERO
+========================================================== */
+
+.hero {
+    padding: 120px 0 80px;
+    background: #F8F5F0;
+}
+
+.hero-grid {
+    display: grid;
+    grid-template-columns: 1.05fr .95fr;
+    align-items: center;
+    gap: 80px;
+}
+
+/* ==========================================================
+   LEFT
+========================================================== */
+
+.hero-left {
+    max-width: 600px;
+}
+
+.hero-title {
+    font-size: clamp(2.55rem, 4vw, 3.85rem);
+    font-weight: 800;
+    line-height: .94;
+    letter-spacing: -.05em;
+    color: var(--navy);
+    margin-bottom: 28px;
+}
+
+.hero-description {
+    font-size: 1.08rem;
+    line-height: 1.9;
+    color: var(--gray-500);
+    max-width: 500px;
+    margin-bottom: 36px;
+}
+
+.hero-buttons {
+    display:flex;
+    gap:22px;
+    margin-top:10px;
+}
+
+.primary-btn,
+.secondary-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 34px;
+    border-radius: 999px;
+    font-weight: 700;
+    transition: .25s ease;
+}
+
+.primary-btn {
+    background: var(--navy);
+    color: white;
+    box-shadow: var(--shadow-md);
+}
+
+.primary-btn:hover {
+    background: var(--accent);
+    transform: translateY(-3px);
+}
+
+.secondary-btn {
+    border: 2px solid var(--gray-300);
+    color: var(--navy);
+    background: white;
+}
+
+.secondary-btn:hover {
+    background: var(--navy);
+    color: white;
+}
+
+/* ==========================================================
+   RIGHT
+========================================================== */
+
+.hero-right{
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+
+    margin-top:-90px;
+
+    /* move the whole logo cluster left */
+    margin-left:-70px;
+}
+
+.hero-network {
+    display: grid;
+
+    grid-template-areas:
+        ". research ."
+        "mentor logo scholarship"
+        ". community .";
+
+    grid-template-columns: 215px 340px 215px;
+    grid-template-rows: 80px 340px 80px;
+
+    justify-items: center;
+    align-items: center;
+}
+.research {
+    grid-area: research;
+}
+
+.mentorship {
+    grid-area: mentor;
+}
+
+.scholarships {
+    grid-area: scholarship;
+}
+
+.community {
+    grid-area: community;
+}
+
+/* ==========================================================
+   LOGO
+========================================================== */
+
+.hero-logo-card {
+    grid-area: logo;
+
+    width: 340px;
+    height: 340px;
+
+    background: #FFFFFF;
+
+    border-radius: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 0 25px 60px rgba(13,27,42,.10);
+
+    transition: .3s ease;
+}
+
+.hero-logo-card:hover {
+    transform: translateY(-6px);
+}
+
+.hero-logo {
+    width: 190px;
+    transition: .3s ease;
+}
+
+.hero-logo-card:hover .hero-logo {
+    transform: scale(1.04);
+}
+
+/* ==========================================================
+   FLOATING CARDS
+========================================================== */
+
+.floating-card {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+    padding: 15px 20px;
+
+    background: white;
+
+    border-radius: 18px;
+
+    font-weight: 700;
+
+    color: var(--navy);
+
+    box-shadow: 0 12px 30px rgba(13,27,42,.08);
+
+    transition: .25s ease;
+
+}
+
+.floating-card svg {
+
+    color: var(--accent);
+
+}
+
+.floating-card:hover {
+
+    transform: translateY(-5px);
+
+    box-shadow: 0 20px 45px rgba(13,27,42,.12);
+
+}
+
+/* ==========================================================
+   CAPTION
+========================================================== */
+
+.hero-caption {
+
+    margin-top: 18px;
+
+    text-align: center;
+
+    font-size: .86rem;
+
+    font-weight: 700;
+
+    letter-spacing: .14em;
+
+    text-transform: uppercase;
+
+    color: var(--gray-500);
+
+}
+
+/* ==========================================================
+   RESPONSIVE
+========================================================== */
+
+@media (max-width:1100px){
+
+    .hero{
+
+        padding:100px 0 70px;
+
+    }
+
+    .hero-grid{
+
+        grid-template-columns:1fr;
+
+        gap:70px;
+
+        text-align:center;
+
+    }
+
+    .hero-left{
+
+        max-width:700px;
+
+        margin:auto;
+
+    }
+
+    .hero-description{
+
+        margin-inline:auto;
+
+    }
+
+    .hero-buttons{
+
+        justify-content:center;
+
+    }
+
+    .hero-right{
+
+        margin-top:0;
+
+    }
+
+    .hero-network{
+
+        transform:scale(.88);
+
+    }
+
+}
+
+@media (max-width:768px){
+
+    .hero{
+
+        padding:80px 0 60px;
+
+    }
+
+    .hero-title{
+
+        font-size:clamp(2.5rem,9vw,3.6rem);
+
+    }
+
+    .hero-network{
+
+        transform:scale(.72);
+
+        transform-origin:center;
+
+    }
+
+}

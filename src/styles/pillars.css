@@ -1,0 +1,39 @@
+.pillars{
+    padding:120px 0;
+}
+
+.pillar-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:30px;
+    margin-top:60px;
+}
+
+.pillar-card{
+    background:white;
+    padding:35px;
+    border-radius:20px;
+    box-shadow:0 12px 30px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.pillar-card:hover{
+    transform:translateY(-8px);
+}
+
+.pillar-card h3{
+    color:#0D1B2A;
+    margin-bottom:15px;
+}
+
+.pillar-card p{
+    color:#5B6472;
+    line-height:1.8;
+}
+
+.pillar-card span{
+    display:block;
+    margin-top:20px;
+    color:#E07A5F;
+    font-weight:700;
+}

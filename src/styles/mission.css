@@ -1,0 +1,54 @@
+.mission{
+    padding:120px 20px;
+    text-align:center;
+}
+
+.section-eyebrow{
+    color:#E07A5F;
+    letter-spacing:3px;
+    font-weight:700;
+    margin-bottom:15px;
+}
+
+.section-title{
+    font-size:clamp(2.2rem,5vw,3.4rem);
+    color:#0D1B2A;
+    max-width:800px;
+    margin:auto;
+}
+
+.section-description{
+    max-width:760px;
+    margin:30px auto 70px;
+    line-height:1.9;
+    color:#5B6472;
+    font-size:1.15rem;
+}
+
+.mission-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:30px;
+}
+
+.mission-card{
+    background:white;
+    padding:40px;
+    border-radius:20px;
+    box-shadow:0 12px 30px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.mission-card:hover{
+    transform:translateY(-8px);
+}
+
+.mission-card h3{
+    color:#0D1B2A;
+    margin-bottom:18px;
+}
+
+.mission-card p{
+    color:#5B6472;
+    line-height:1.8;
+}
